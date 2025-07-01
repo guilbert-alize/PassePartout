@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
   <meta charset="UTF-8" />
   <title>PassePartout - Générateur de mots de passe</title>
@@ -62,6 +62,33 @@
       text-align: center;
       user-select: all;
     }
+    footer {
+      margin-top: 40px;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #555;
+    }
+    footer a {
+      color: #0078d7;
+      text-decoration: none;
+      margin: 0 10px;
+      vertical-align: middle;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+    footer a:hover {
+      text-decoration: underline;
+    }
+    svg.github-icon {
+      width: 20px;
+      height: 20px;
+      fill: #333;
+      transition: fill 0.3s ease;
+    }
+    footer a:hover svg.github-icon {
+      fill: #0078d7;
+    }
   </style>
 </head>
 <body>
@@ -79,6 +106,16 @@
   <button onclick="generatePassword()">créer un mot de passe</button>
 
   <div id="result" aria-live="polite"></div>
+
+  <footer>
+    <a href="https://github.com/guilbert-alize/PassePartout" target="_blank" rel="noopener" title="Voir le code sur GitHub">
+      Code source
+    </a>
+    |
+    <a href="https://guilbert-alize.github.io/cv.alize.io/fr/" target="_blank" rel="noopener" title="Voir mon CV en ligne">
+      Mon CV
+    </a>
+  </footer>
 
   <script src="script.js"></script>
 </body>
