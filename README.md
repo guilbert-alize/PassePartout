@@ -2,7 +2,7 @@
 
 Cette application permet de choisir la longueur d’un mot de passe et de sélectionner si l’on souhaite inclure des chiffres, des lettres et/ou des caractères spéciaux.
 
-L’interface a d’abord été développée en Python pour une utilisation en ligne de commande, puis adaptée en JavaScript pour créer une version web. Le site est hébergé via GitHub Pages.
+L’interface a d’abord été développée en Python pour une utilisation en ligne de commande, puis adaptée en JavaScript pour créer une version web. Le site est hébergé via GitHub Pages. Lien : https://guilbert-alize.github.io/PassePartout/
 
 ## Technos
 
