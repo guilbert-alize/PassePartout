@@ -24,7 +24,7 @@ Ce projet a été inspiré par les ressources suivantes :
 
 ```bash
 python3 passwords.py
-
+```
 ### Version web :
 - Ouvrez index.html dans votre navigateur
 ou
